@@ -14,7 +14,7 @@ Notes:
 
 1. Make sure R (and possibly RStudio) is installed.
 2. Install the [SECODA](https://github.com/ralfoan/SECODA) R package (or use the "SECODA.R" code file) and other packages (foreign, RGL, data.table; and possibly DDoutlier, dbscan, spoutlier, pROC, fmsb, precrec, plyr and ggplot2).
-3. The datasets are in ARFF format and include metadata and comments. The .R files with the dataset in the file names (e.g. "Multiset4D.R") contain the R code examples. The other .R files are the algorithms and algorithmic frameworks (see below).
+3. The datasets are in ARFF format and include metadata and comments. The .R files with the dataset in the file name (e.g. "Multiset4D.R") contain the R code examples that illustrate how to analyze the data. (Note that many examples are also for regular anomaly detection, to facilitate a comparison with the HDA algorithmic frameworks.) The other .R files are the algorithms and algorithmic frameworks (see below).
 4. Conduct high-density anomaly detection using the IPP (Iterative Partial Push) or HMDH (Harmonic Mean Detection of HDAs) framework (see below). An easy way to start is using the code in "HD_Gleuf.R". It is highly advised to install the pacakge RGL for 3D visualization.
 
 
